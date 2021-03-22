@@ -8,6 +8,7 @@ import NotFoundPage from "../components/NotFoundPage";
 import PublicRoute from "./PublicRoute";
 
 export const history = createHistory();
+
 const AppRouter = () => (
   <Router history={history}>
     <div>
