@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render IssueDetailsPage correctly 1`] = `
+<div>
+  <div
+    className="content-container"
+  >
+    <div>
+      <h1
+        className="page-header__title"
+      >
+        Viewing details of Issue 
+        <span>
+          screenshots
+        </span>
+         
+      </h1>
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p><a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247600-34eeef00-3f11-11eb-8c83-9b99b0ace69b.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247600-34eeef00-3f11-11eb-8c83-9b99b0ace69b.png\\" alt=\\"profiles\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247609-37514900-3f11-11eb-8366-1af9b2f0a6cb.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247609-37514900-3f11-11eb-8366-1af9b2f0a6cb.png\\" alt=\\"sign-in\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247613-37514900-3f11-11eb-9a0f-8e1a1b8d3d22.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247613-37514900-3f11-11eb-9a0f-8e1a1b8d3d22.png\\" alt=\\"user-dashboard\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247619-38827600-3f11-11eb-8404-a310eb6663d1.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247619-38827600-3f11-11eb-8404-a310eb6663d1.png\\" alt=\\"comment\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102248587-5e5c4a80-3f12-11eb-845a-b99de1197453.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102248587-5e5c4a80-3f12-11eb-845a-b99de1197453.png\\" alt=\\"edit-profile\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247624-391b0c80-3f11-11eb-8863-60c4a5edcff6.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247624-391b0c80-3f11-11eb-8863-60c4a5edcff6.png\\" alt=\\"index\\" style=\\"max-width:100%;\\"></a><br>
+          <a target=\\"_blank\\" rel=\\"noopener noreferrer\\" href=\\"https://user-images.githubusercontent.com/31744209/102247631-3a4c3980-3f11-11eb-8feb-6e50c76e65a6.png\\"><img src=\\"https://user-images.githubusercontent.com/31744209/102247631-3a4c3980-3f11-11eb-8feb-6e50c76e65a6.png\\" alt=\\"posts\\" style=\\"max-width:100%;\\"></a></p>",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

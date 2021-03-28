@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render IssuesListFilters correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Search Issue"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render IssuesListFilters with data correctly 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__item"
+    >
+      <input
+        className="text-input"
+        onChange={[Function]}
+        placeholder="Search Issue"
+        type="text"
+        value="automated tests"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render IssuesListItem correctly 1`] = `
+<Link
+  className="list-item"
+  replace={false}
+  to="/issueDetails/MDU6SXNzdWU3Njc4NjI5Nzk="
+>
+  <div>
+    <img
+      alt="Avatar"
+      className="avatar"
+      src="https://avatars.githubusercontent.com/u/31744209?u=a6d48cf8f85179ba4db1b3268e8624fd21ddc2e5&v=4"
+    />
+    <div
+      className="list-item__sub-title"
+    >
+      screenshots
+    </div>
+  </div>
+  <span
+    className="list-item__sub-title "
+  >
+    opened at 
+    2020-12-15T17:20:41Z
+  </span>
+</Link>
+`;

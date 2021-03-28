@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ReposList with empty message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Repositories
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Repository
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Action
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No Repos
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render ReposList with repositories 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Repositories
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Repository
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Action
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ReposListItem
+      description="view awesome places."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkxNjk1NjQ3NTA="
+      name="react-native-awesome-places-app"
+      repositoryOwner="JamesEdward"
+      updatedAt="2019-06-05T10:58:19Z"
+      url="https://github.com/jamesmogambi/react-native-awesome-places-app"
+    />
+    <ReposListItem
+      description={null}
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkxNzAxOTY3OTU="
+      name="react-indecision-app-v"
+      repositoryOwner="JamesEdward"
+      updatedAt="2019-06-05T10:56:56Z"
+      url="https://github.com/jamesmogambi/react-indecision-app-v"
+    />
+    <ReposListItem
+      description="a frontend-development test app"
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkxOTcwNjY4MTI="
+      name="react-interview-app"
+      repositoryOwner="JamesEdward"
+      updatedAt="2019-07-15T21:27:52Z"
+      url="https://github.com/jamesmogambi/react-interview-app"
+    />
+    <ReposListItem
+      description="emr solutions app"
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkxOTkyODE2MTc="
+      name="medescope"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-12-16T20:34:45Z"
+      url="https://github.com/jamesmogambi/medescope"
+    />
+    <ReposListItem
+      description="baobab-app"
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkyMjIxMTQ2NTY="
+      name="baobab-app"
+      repositoryOwner="JamesEdward"
+      updatedAt="2019-11-16T15:01:01Z"
+      url="https://github.com/jamesmogambi/baobab-app"
+    />
+    <ReposListItem
+      description={null}
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkyNjAxNTIxMTA="
+      name="inventory"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-04-30T08:15:53Z"
+      url="https://github.com/jamesmogambi/inventory"
+    />
+    <ReposListItem
+      description={null}
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkyNjAyNTM4ODQ="
+      name="inventorygrain"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-04-30T15:55:34Z"
+      url="https://github.com/jamesmogambi/inventorygrain"
+    />
+    <ReposListItem
+      description="Leave Management System for CSI with a Spring Boot backend and a React frontend."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkyNjE2ODg0OTE="
+      name="csileavemanagementsystem"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-05-06T07:50:11Z"
+      url="https://github.com/jamesmogambi/csileavemanagementsystem"
+    />
+    <ReposListItem
+      description="Application for finding vets/animal health specialists,booking appointments."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkyOTAxMzEzNzA="
+      name="team-alpha-app"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-08-26T09:07:10Z"
+      url="https://github.com/teamAlpha693/team-alpha-app"
+    />
+    <ReposListItem
+      description="Django backend for eCommerce project"
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMTU5NDY3NTM="
+      name="ecommerce-backend"
+      repositoryOwner="JamesEdward"
+      updatedAt="2020-11-25T13:24:51Z"
+      url="https://github.com/jamesmogambi/ecommerce-backend"
+    />
+    <ReposListItem
+      description="Fullstack ecommerce application built with React, Node, Express and MongoDB."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMTYwMDIzMjA="
+      name="MERN-Ecommerce"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-01-28T10:34:46Z"
+      url="https://github.com/jamesmogambi/MERN-Ecommerce"
+    />
+    <ReposListItem
+      description="Social network for developers, built on the MERN stack"
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMTk1NzkzNDQ="
+      name="dev-_MERN-Stack"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-01-28T10:36:27Z"
+      url="https://github.com/jamesmogambi/dev-_MERN-Stack"
+    />
+    <ReposListItem
+      description="Manage your expenses."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMjExNTE3Nzk="
+      name="react-redux-firebase-expensify-app"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-03-17T14:38:54Z"
+      url="https://github.com/jamesmogambi/react-redux-firebase-expensify-app"
+    />
+    <ReposListItem
+      description="Payment App UI developed in React Native."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMzE1ODU2NDg="
+      name="fintech-front-end"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-02-20T08:04:33Z"
+      url="https://github.com/jamesmogambi/fintech-front-end"
+    />
+    <ReposListItem
+      description={null}
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzMzIzOTE0NTc="
+      name="0nline-payment-admin"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-01-24T07:29:45Z"
+      url="https://github.com/jamesmogambi/0nline-payment-admin"
+    />
+    <ReposListItem
+      description="Progressive web app for viewing issues from the github.com. Built with react, redux, redux-thunk and webpack."
+      forkCount={0}
+      id="MDEwOlJlcG9zaXRvcnkzNTAyODE0NTA="
+      name="github-issue-tracker"
+      repositoryOwner="JamesEdward"
+      updatedAt="2021-03-22T14:02:44Z"
+      url="https://github.com/jamesmogambi/github-issue-tracker"
+    />
+  </div>
+</div>
+`;

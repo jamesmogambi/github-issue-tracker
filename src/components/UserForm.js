@@ -5,7 +5,7 @@ export default class UserForm extends React.Component {
     super(props);
 
     this.state = {
-      username: "",
+      username: props.user ? props.user : "",
     };
   }
   onUserNameChange = (e) => {

@@ -13,7 +13,7 @@ export class ReposPage extends React.Component {
     return (
       <div>
         <div className="content-container">
-          <UserForm onSubmit={this.onSubmit} />
+          <UserForm onSubmit={this.onSubmit} user={this.props.user} />
           <ReposList />
         </div>
       </div>
@@ -25,4 +25,8 @@ const mapDispatchToProps = (dispatch) => ({
   getRepositories: (params) => dispatch(getRepositories(params)),
 });
 
-export default connect(undefined, mapDispatchToProps)(ReposPage);
+const mapStateToProps = (state) => ({
+  user: state.repos.repositoryOwner,
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ReposPage);

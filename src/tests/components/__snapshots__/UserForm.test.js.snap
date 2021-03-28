@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render UserForm correctly 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Github username"
+    type="text"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      View Repos
+    </button>
+  </div>
+</form>
+`;
+
+exports[`should render for invalid form submission 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Github username"
+    type="text"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      View Repos
+    </button>
+  </div>
+</form>
+`;
+
+exports[`should render for invalid form submission 2`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    autoFocus={true}
+    className="text-input"
+    onChange={[Function]}
+    placeholder="Github username"
+    type="text"
+    value=""
+  />
+  <div>
+    <button
+      className="button"
+    >
+      View Repos
+    </button>
+  </div>
+</form>
+`;

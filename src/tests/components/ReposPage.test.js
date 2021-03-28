@@ -1,8 +1,23 @@
 import React from "react";
 import { shallow } from "enzyme";
-import ReposPage from "../../components/ReposPage";
+import repos from "../fixtures/repos";
+import { ReposPage } from "../../components/ReposPage";
 
-test("should render ReposPage correctly", () => {
-  const wrapper = shallow(<ReposPage />);
+let getRepositories, wrapper;
+
+beforeEach(() => {
+  getRepositories = jest.fn();
+  wrapper = shallow(<ReposPage getRepositories={getRepositories} />);
+});
+
+test("should render ReposPage", () => {
   expect(wrapper).toMatchSnapshot();
+});
+
+test("should handle getRepositories", () => {
+  const params = {
+    username: "JamesEdward",
+  };
+  wrapper.find("UserForm").prop("onSubmit")(params);
+  expect(getRepositories).toHaveBeenLastCalledWith(params);
 });

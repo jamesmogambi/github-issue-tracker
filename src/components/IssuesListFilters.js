@@ -16,7 +16,7 @@ export class IssuesListFilters extends React.Component {
               type="text"
               className="text-input"
               placeholder="Search Issue"
-              value={this.props.filters.text}
+              value={this.props.filters.text ? this.props.filters.text : ""}
               onChange={this.onTextChange}
             />
           </div>

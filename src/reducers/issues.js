@@ -16,7 +16,6 @@ export default (state = initialState, action) => {
         username,
         repositoryname,
         repositoryissues,
-        loading: false,
       };
 
     case "CLEAR_ISSUES":
@@ -25,7 +24,6 @@ export default (state = initialState, action) => {
         username: null,
         repositoryname: null,
         repositoryissues: [],
-        loading: action.payload,
       };
     default:
       return state;

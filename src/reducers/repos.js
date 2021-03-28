@@ -1,5 +1,4 @@
 // Repositories Reducer
-
 const initialState = {
   repositories: [],
   repositoryOwner: null,
@@ -14,12 +13,12 @@ export default (state = initialState, action) => {
         ...state,
         repositoryOwner,
         repositories,
-        loading: false,
       };
     case "CLEAR_REPOSITORIES":
       return {
-        ...state,
         repositories: [],
+        repositoryOwner: null,
+        error: null,
       };
 
     default:

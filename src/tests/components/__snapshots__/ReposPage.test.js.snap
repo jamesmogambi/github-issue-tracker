@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ReposPage 1`] = `
+<div>
+  <div
+    className="content-container"
+  >
+    <UserForm
+      onSubmit={[Function]}
+    />
+    <Connect(ReposList) />
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ReposListItem correctly 1`] = `
+<div
+  className="list-item"
+>
+  <div>
+    <h3
+      className=" list-item__title"
+    >
+      react-native-awesome-places-app
+    </h3>
+    <span
+      className=" list-item__sub-title"
+    >
+      view awesome places.
+    </span>
+    <Link
+      replace={false}
+      to="/issues/react-native-awesome-places-app/JamesEdward"
+    >
+      <h3
+        className="list-item__sub-title list-link "
+      >
+        View Issues
+      </h3>
+    </Link>
+  </div>
+</div>
+`;

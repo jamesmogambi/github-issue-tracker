@@ -69,7 +69,7 @@ export const getRepositoryIssues = (params) => {
         }
       })
       .catch((err) => {
-        dispatch(error());
+        dispatch(error(err));
         console.error(err);
       });
   };
